@@ -55,18 +55,18 @@ span[data-note] {
   -webkit-transition: background 0.3s;
   -webkit-user-select: none;
   &.open {
-    background: #838383;
+    background: #ff0000;
   }
   @media (min-width: 768px) {
     vertical-align: 1px;
   }
   @media (min-width: 992px) {&:hover {
-      background: #838383;
+      background: #ff0000;
     }
   }
 }
 .note {
-  background: #f8f8f8;
+  background: #ff0000;
   border: 1px solid #ddd;
   box-shadow: 0 0 8px rgba( 0, 0, 0, 0.2 );
   padding: 20px 20px 50px;
@@ -118,7 +118,7 @@ span[data-note] {
   -webkit-animation-name: bounce;
   a {
     background: #ddd url("gravatar_wrapper.png");
-    color: #000;
+    color: #ff0000;
     text-decoration: none;
     font-weight: 700;
     height: 100px;
@@ -128,7 +128,7 @@ span[data-note] {
     display: inline-block;
     text-align: center;
     line-height: 100px;
-    border: 5px solid #fff;
+    border: 5px solid #ff0000;
     box-sizing: border-box;
     &:hover,
     &:focus {
