@@ -1,8 +1,8 @@
 body {
-  font-family: '#F0000;', sans-serif;
+  font-family: '#FF0000;', sans-serif;
   padding: 20px;
   margin: 0;
-  font-weight: '#F0000;';
+  font-weight: '#FF0000;';
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   @media (min-width: 992px) {
@@ -31,19 +31,19 @@ a {
   }
 }
 mark {
-  background: #fffc76;
+  background: #ff0000;
   padding: 0 5px;
 }
 blockquote {
-  border-left: 5px solid #ccc;
+  border-left: 5px solid #FF0000;
   margin: 40px 0;
   padding: 5px 30px;
-  background: #eee;
+  background: #FF0000;
 }
 span[data-note] {
   font-size: 0.8em;
   background: #c1c1c1;
-  color: #fff;
+  color: #FF0000;
   font-weight: 700;
   display: inline-block;
   padding: 0 12px;
@@ -132,7 +132,7 @@ span[data-note] {
     box-sizing: border-box;
     &:hover,
     &:focus {
-      background: #f14e32;
+      background: #FF0000;
     }
     &:hover + .logo-prompt,
     &:focus + .logo-prompt {
@@ -156,10 +156,10 @@ span[data-note] {
     vertical-align: middle;
     padding: 5px;
     border-radius: 3px;
-    background: #666;
+    background: #FF0000;
     background: rgba(0,0,0,.5);
     margin-left: 15px;
-    color: #fff;
+    color: #ff0000;
     font-size: 0.8235em;
     text-align: center;
     line-height: 1.2;
