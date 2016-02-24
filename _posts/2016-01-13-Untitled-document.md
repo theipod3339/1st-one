@@ -1,5 +1,5 @@
 ---
-title: Untitled document
+title: 1
 layout: post
 author: niklas.damarell
 permalink: /untitled-document/
