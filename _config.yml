@@ -7,13 +7,7 @@ google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 # Author Info
 author_name:        "Nik D"
 author_email:       me@gmail.com
-author_gravatar:    def gravatar email, options={}
-  email_md5 = Digest::MD5.hexdigest email
-  params_query = "?#{options.to_param}" unless options.empty?
-  "http://www.gravatar.com/avatar/#{email_md5}#{params_query}"
-end
-twitter_username:   me
-
+author_gravatar:    https://github.com/identicons/theipod3339.png
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
